@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>聽音測驗</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="inner">
+      <h1 id="exam-title">聽音測驗</h1>
+      <nav>
+        <a href="index.html">🏠 首頁</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div id="exam-root"></div>
+  </main>
+  <footer class="site">
+    🎹 鋼琴音色：Salamander Grand Piano（Yamaha C5 真實鋼琴錄音樣本，由 Tone.js 提供）
+  </footer>
+  <!-- Tone.js (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/tone@14.8.49/build/Tone.js"></script>
+  <script src="js/piano.js"></script>
+  <script src="js/notation-canvas.js"></script>
+  <script src="js/data-listening.js"></script>
+  <script src="js/listening.js"></script>
+</body>
+</html>
