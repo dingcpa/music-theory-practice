@@ -679,6 +679,32 @@ footer.site {
 .cell-feedback.ok { color: #15803d; }
 .cell-feedback.no { color: #b91c1c; }
 
+/* 揭示官方譜面（節奏/旋律題作答後對照） */
+.answer-reveal {
+  margin: 8px 0 12px;
+  padding: 8px 12px;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+.answer-reveal summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--accent);
+  user-select: none;
+}
+.answer-reveal[open] summary {
+  margin-bottom: 8px;
+}
+.answer-reveal .reveal-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
 /* reference-only 互動譜例 */
 .interactive-staff {
   margin: 10px 0 16px;

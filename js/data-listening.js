@@ -79,19 +79,19 @@ const LISTENING_EXAMS = {
         instruction: '請寫出所聽到的節奏，以高音譜第二間 A4 記譜，連續播放四次。每題 10 分，共 30 分。',
         bpm: 80,
         questions: [
-          { id: 1, time: '3/4', sequence: [
+          { id: 1, image: 'images/questions/listening/112-rhythm-q1.png', time: '3/4', sequence: [
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:1.0},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5}
             ] },
-          { id: 2, time: '6/8', sequence: [
+          { id: 2, image: 'images/questions/listening/112-rhythm-q2.png', time: '6/8', sequence: [
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'A4',d:0.5},
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'A4',d:0.5},
               {rest:true,d:0.25},{note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5}
             ] },
-          { id: 3, time: '6/8', sequence: [
+          { id: 3, image: 'images/questions/listening/112-rhythm-q3.png', time: '6/8', sequence: [
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:1.0},
@@ -106,13 +106,13 @@ const LISTENING_EXAMS = {
         instruction: '請寫出所聽到的旋律，第一個音為 A4，連續播放四次。每題 10 分，共 20 分。',
         bpm: 80,
         questions: [
-          { id: 1, time: '4/4', sequence: [
+          { id: 1, image: 'images/questions/listening/112-melody-q1.png', time: '4/4', sequence: [
               {note:'A4',d:0.5},{note:'C5',d:0.5},{note:'B4',d:0.5},{note:'G4',d:0.5},
               {note:'F#4',d:0.5},{note:'E4',d:0.5},{note:'D4',d:0.5},{note:'F4',d:0.5},
               {note:'G4',d:0.75},{note:'A4',d:0.25},{note:'B4',d:0.5},{note:'C5',d:0.5},
               {note:'D5',d:0.5},{note:'C5',d:0.5},{note:'A4',d:1.0}
             ] },
-          { id: 2, time: '6/8', sequence: [
+          { id: 2, image: 'images/questions/listening/112-melody-q2.png', time: '6/8', sequence: [
               {note:'A4',d:0.75},{note:'B4',d:0.25},{note:'C5',d:0.5},
               {note:'D5',d:0.5},{note:'C5',d:0.5},{note:'B4',d:0.5},
               {note:'A4',d:0.5},{note:'G4',d:0.5},{note:'A4',d:0.5},
@@ -185,19 +185,19 @@ const LISTENING_EXAMS = {
         instruction: '請寫出所聽到的節奏，以 A4 記譜。每題 10 分，共 30 分。',
         bpm: 80,
         questions: [
-          { id: 1, time: '3/4', sequence: [
+          { id: 1, image: 'images/questions/listening/113-rhythm-q1.png', time: '3/4', sequence: [
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:1.0},{note:'A4',d:0.333},{note:'A4',d:0.333},{note:'A4',d:0.333},
               {rest:true,d:0.25},{note:'A4',d:0.25},{note:'A4',d:0.25},{note:'A4',d:0.25}
             ] },
-          { id: 2, time: '4/4', sequence: [
+          { id: 2, image: 'images/questions/listening/113-rhythm-q2.png', time: '4/4', sequence: [
               {note:'A4',d:0.5},{note:'A4',d:0.333},{note:'A4',d:0.333},{note:'A4',d:0.333},
               {note:'A4',d:0.75},{note:'A4',d:0.25},{rest:true,d:0.25},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{rest:true,d:0.25},{note:'A4',d:0.25},
               {note:'A4',d:0.25},{rest:true,d:0.25},{note:'A4',d:0.25},{note:'A4',d:0.25},{rest:true,d:0.25}
             ] },
-          { id: 3, time: '6/8', sequence: [
+          { id: 3, image: 'images/questions/listening/113-rhythm-q3.png', time: '6/8', sequence: [
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:1.0},
@@ -211,14 +211,14 @@ const LISTENING_EXAMS = {
         instruction: '請寫出所聽到的旋律，第一個音為 A4，連續播放四次。每題 10 分，共 20 分。',
         bpm: 80,
         questions: [
-          { id: 1, time: '4/4', sequence: [
+          { id: 1, image: 'images/questions/listening/113-melody-q1.png', time: '4/4', sequence: [
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'B4',d:0.5},{note:'C5',d:0.5},
               {note:'D5',d:0.75},{note:'C5',d:0.25},{note:'B4',d:0.5},{note:'A4',d:0.5},
               {note:'G4',d:0.5},{note:'F#4',d:0.5},{note:'A4',d:1.0},
               {note:'B4',d:0.333},{note:'A4',d:0.333},{note:'G#4',d:0.333},
               {note:'Bb4',d:0.5},{note:'A4',d:0.5}
             ] },
-          { id: 2, time: '6/8', sequence: [
+          { id: 2, image: 'images/questions/listening/113-melody-q2.png', time: '6/8', sequence: [
               {note:'A4',d:0.75},{note:'G4',d:0.25},{note:'F4',d:0.5},
               {note:'E4',d:0.5},{note:'F4',d:0.5},{note:'G4',d:0.5},
               {note:'A4',d:0.5},{note:'Bb4',d:0.5},{note:'B4',d:0.5},
@@ -293,19 +293,19 @@ const LISTENING_EXAMS = {
         instruction: '請寫出所聽到的節奏，以 A4 記譜。每題 10 分，共 30 分。',
         bpm: 80,
         questions: [
-          { id: 1, time: '3/4', sequence: [
+          { id: 1, image: 'images/questions/listening/114-rhythm-q1.png', time: '3/4', sequence: [
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5}
             ] },
-          { id: 2, time: '4/4', sequence: [
+          { id: 2, image: 'images/questions/listening/114-rhythm-q2.png', time: '4/4', sequence: [
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.333},{note:'A4',d:0.333},{note:'A4',d:0.333},
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'A4',d:0.25},{note:'A4',d:0.25},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:1.0},
               {note:'A4',d:0.25},{note:'A4',d:0.25},{note:'A4',d:0.5}
             ] },
-          { id: 3, time: '6/8', sequence: [
+          { id: 3, image: 'images/questions/listening/114-rhythm-q3.png', time: '6/8', sequence: [
               {note:'A4',d:0.5},{note:'A4',d:0.333},{note:'A4',d:0.333},{note:'A4',d:0.333},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:0.5},{note:'A4',d:0.5},
               {note:'A4',d:0.5},{note:'A4',d:1.0},
@@ -319,14 +319,14 @@ const LISTENING_EXAMS = {
         instruction: '請寫出所聽到的旋律，第一個音為 A4。每題 10 分，共 20 分。',
         bpm: 76,
         questions: [
-          { id: 1, time: '4/4', sequence: [
+          { id: 1, image: 'images/questions/listening/114-melody-q1.png', time: '4/4', sequence: [
               {note:'A4',d:0.75},{note:'A4',d:0.25},{note:'B4',d:0.5},
               {note:'C5',d:0.333},{note:'D5',d:0.333},{note:'E5',d:0.333},{note:'D5',d:0.5},
               {note:'F5',d:0.25},{note:'E5',d:0.25},{note:'Eb5',d:0.5},
               {note:'D5',d:0.333},{note:'C5',d:0.333},{note:'Bb4',d:0.333},
               {note:'C#5',d:0.5},{note:'A4',d:0.5}
             ] },
-          { id: 2, time: '6/8', sequence: [
+          { id: 2, image: 'images/questions/listening/114-melody-q2.png', time: '6/8', sequence: [
               {note:'A4',d:0.75},{note:'A#4',d:0.25},{note:'B4',d:0.5},
               {note:'C5',d:0.5},{note:'D5',d:0.5},{note:'Eb5',d:0.5},
               {note:'D5',d:0.333},{note:'Db5',d:0.333},{note:'C5',d:0.333},

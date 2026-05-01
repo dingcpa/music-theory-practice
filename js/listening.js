@@ -24,6 +24,10 @@
     第一個音為標準音 A4，按 <span class="kbd">標準音 A</span> 可隨時對音。
     建議戴耳機作答以獲得最佳音質。
   </div>`);
+  html.push(`<div class="notice" style="background:#fef3c7; border-left-color:#f59e0b;">
+    <strong>⚠️ 節奏題與旋律題校對中：</strong>本系統的節奏／旋律播放音檔資料尚在校對，可能與原 PDF 譜面有出入。
+    請以「📄 官方譜面」按鈕揭示的原譜為準，播放音僅供節奏感體驗參考。
+  </div>`);
   if (exam.pdf) {
     html.push(`<p><a class="pdf-link" href="${exam.pdf}" target="_blank">📄 開啟原 PDF（含答案譜面）</a></p>`);
   }
@@ -63,8 +67,14 @@
         html.push('</ul>');
       } else if (section.type === 'rhythm' || section.type === 'melody') {
         html.push(`<div class="drawing-host" id="dh-${sIdx}-${qIdx}"></div>`);
+        if (q.image) {
+          html.push(`<details class="answer-reveal">
+            <summary>📄 顯示官方譜面（作答後再開）</summary>
+            <img class="reveal-image" src="${q.image}" alt="第 ${q.id} 題官方譜面">
+          </details>`);
+        }
         html.push(`<div style="color:var(--muted); font-size:0.92rem;">
-          ※ 請於上方五線譜框內手繪作答。完成後請對照原 PDF 譜面自評。
+          ※ 請於上方五線譜框內手繪作答。完成後可開啟上方「官方譜面」對照自評。
         </div>`);
       }
       html.push('</div>');
